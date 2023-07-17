@@ -1200,7 +1200,7 @@ int main(int argc, char **argv) {
 
                     online_calib_starts_time = lidar_end_time;
 
-                    //Transfer to FAST-LIO2
+                    //Transfer to  FAST-LIO2
                     imu_en = true;
                     state.offset_R_L_I = Init_LI->get_R_LI();
                     state.offset_T_L_I = Init_LI->get_T_LI();
